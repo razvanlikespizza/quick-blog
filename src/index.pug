@@ -1,0 +1,17 @@
+extends _component/layout/main
+
+block config
+  -
+    var title = "Welcome to Quick Blog";
+    var description = "Using super Quick Blog is easy and you can get 100/100 score on Google pagespeed insights";
+
+block content
+  .welcome
+    h1=title
+    p.welcome__description=description
+    a.scroll-down(href="#continue") 
+      span.text click to continue reading or scroll down
+  #continue
+    p.lead Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget urna eget lorem eleifend auctor. Proin viverra, lectus eget pretium mollis, dui leo congue tortor.
+    p
+      small Vivamus sodales justo dolor, a pulvinar felis lobortis non. Nullam sollicitudin quam sit amet arcu malesuada, non convallis orci posuere. Morbi rutrum, dui in imperdiet cursus, risus dolor congue justo, eu varius orci massa id metus. 

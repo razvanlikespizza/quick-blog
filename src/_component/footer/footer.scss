@@ -1,0 +1,19 @@
+footer {
+  margin: 0.5rem;
+  background-color: $dark;
+  color: $white;
+  border-radius: 0.5rem;
+  text-align: center;
+  div {
+    padding: 0.2rem 0;
+    font-size: 1.2rem;
+  }
+  li {
+    display: inline-block;
+    padding: 1rem 1rem;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
