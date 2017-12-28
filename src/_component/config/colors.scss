@@ -1,5 +1,52 @@
-$normal: #f1c40f;
-$dark: #F39C12;
-$golden-grass: #dd9a2d;
+$theme: 'zest';
+$normal: #000;
+$dark: #000;
+
+@if ($theme == 'cascade') {
+  $normal: #95A5A6;
+  $dark: #7F8C8D;
+}
+
+@if ($theme == 'zest') {
+  $normal: #E67E22;
+  $dark: #D35400;
+}
+
+@if ($theme == 'buttercup') {
+  $normal: #F1C40F;
+  $dark: #F39C12;
+}
+
+@if ($theme == 'pickled-bluewood') {
+  $normal: #34495E;
+  $dark: #2C3E50;
+}
+
+@if ($theme == 'wisteria') {
+  $normal: #9B59B6;
+  $dark: #8E44AD;
+}
+
+@if ($theme == 'shamrock') {
+  $normal: #2ECC71;
+  $dark: #27AE60;
+}
+
+@if ($theme == 'mountain-meadow') {
+  $normal: #1ABC9C;
+  $dark: #16A085;
+}
+
+@if ($theme == 'curious-blue') {
+  $normal: #3498db;
+  $dark: #2980b9;
+}
+
+@if ($theme == 'cinnabar') {
+  $fnormal: #e74c3c;
+  $dark: #c0392b;
+}
+
+$athens-gray: #e7e9ec;
 $white: #fff;
-$black: rgb(36, 36, 36);
+$black: #000;

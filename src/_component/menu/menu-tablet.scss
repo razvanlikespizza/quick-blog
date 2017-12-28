@@ -1,0 +1,14 @@
+@media screen and (min-width: 32em) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: left;
+  }
+  .menu__panel {
+    height: 100%;
+  }
+  .menu__list li {
+    padding-left: 1rem;
+  }
+}
